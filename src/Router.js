@@ -1,11 +1,14 @@
 import React, { Component } from "react";
+import { BrowserRouter, Route } from "react-router-dom";
 
 class Router extends Component {
   render() {
     return (
-      <div>
-        <h1>Hello</h1>
-      </div>
+      <BrowserRouter>
+        <div>
+          <h1>Hello</h1>
+        </div>
+      </BrowserRouter>
     );
   }
 }
