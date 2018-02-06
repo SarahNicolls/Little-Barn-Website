@@ -9,8 +9,8 @@ import SocialMedia from "./SocialMedia";
 const HomePage = () => {
   return (
     <div>
-      <About />
       <Hero />
+      <About />
       <ImageLinks />
       <Reviews />
       <SocialMedia />

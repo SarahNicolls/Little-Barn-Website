@@ -1,14 +1,16 @@
 import React, { Component } from "react";
+import { BrowserRouter, Route } from "react-router-dom";
 
 import HomePage from "./views/homePage";
 
 class Router extends Component {
   render() {
     return (
-      <div>
-        <h1>Hello</h1>
-        <HomePage />
-      </div>
+      <BrowserRouter>
+        <div>
+          <Route exact path={"/"} component={HomePage} />
+        </div>
+      </BrowserRouter>
     );
   }
 }
